@@ -61,10 +61,11 @@
   /* ---------- HERO / SLATE ---------- */
   .hero{
     min-height:100svh;
-    display:flex; flex-direction:column; justify-content:center;
+    display:flex; flex-direction:column; justify-content:center; align-items:center;
     padding: 120px 5vw 60px;
     position:relative;
     overflow:hidden;
+    text-align:center;
   }
   .slate{
     display:inline-flex; align-items:center; gap:14px;
@@ -82,6 +83,7 @@
   }
   .role-tags{
     display:flex; gap:10px; flex-wrap:wrap; margin:26px 0 34px;
+    justify-content:center;
   }
   .role-tags span{
     font-family:'IBM Plex Mono', monospace;
@@ -102,11 +104,12 @@
   .hero-sub{
     max-width:560px;
     font-size:1.08rem;
-    margin-top:22px;
+    margin:22px auto 0;
     color:#000000;
   }
   .hero-cta{
     display:flex; gap:16px; margin-top:38px; flex-wrap:wrap;
+    justify-content:center;
   }
   .btn{
     font-family:'IBM Plex Mono', monospace;
